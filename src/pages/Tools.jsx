@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import ToolCard from "../components/ToolCard";
-import AdBanner from "../components/AdBanner";
+// import AdBanner from "../components/AdBanner";
 
 export default function Tools() {
   const toolsList = [
@@ -92,7 +92,7 @@ export default function Tools() {
         />
       </Helmet>
 
-      <AdBanner />
+      {/* <AdBanner /> */}
 
       <h1 className="text-3xl font-bold mb-8">All Fitness Calculators</h1>
 
