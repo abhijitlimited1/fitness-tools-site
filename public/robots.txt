@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://healthtoolkit.netlify.app/sitemap.xml
