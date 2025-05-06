@@ -16,26 +16,94 @@
       gtag("config", "G-FBHC4CVLSE");
     </script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/logo.jpg" />
+    <link rel="icon" type="image/svg+xml" href="./public/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      FitnessTools - Accurate Health Calculators | BMI, Calorie & Body Fat
+      FitnessTools - Free Fitness Calculators & Health Assessment Tools
     </title>
     <meta
       name="title"
-      content="FitnessTools - Accurate Health Calculators | BMI, Calorie & Body Fat"
+      content="FitnessTools - Free Fitness Calculators & Health Assessment Tools"
     />
     <meta
       name="description"
-      content="Professional fitness calculators for health enthusiasts. Calculate BMI, body fat percentage, calorie needs, and more with our scientifically validated health tools."
+      content="Free, accurate fitness calculators for all your health needs. BMI, TDEE, body fat, macros, protein, and more with instant results. Scientifically validated health tools."
     />
     <meta
       name="keywords"
-      content="fitness calculator, BMI calculator, calorie calculator, body fat calculator, health tools, workout planner, nutrition calculator"
+      content="fitness calculator, BMI calculator, TDEE calculator, body fat calculator, macro calculator, protein calculator, calorie calculator, health tools, nutrition calculator, fitness assessment"
     />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://healthtoolkit.netlify.app/" />
+    <meta
+      property="og:title"
+      content="FitnessTools - Free Fitness Calculators & Health Assessment Tools"
+    />
+    <meta
+      property="og:description"
+      content="Free, accurate fitness calculators for all your health needs. BMI, TDEE, body fat, macros, and more with instant results."
+    />
+    <meta
+      property="og:image"
+      content="https://healthtoolkit.netlify.app/og-image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://healthtoolkit.netlify.app/" />
+    <meta
+      property="twitter:title"
+      content="FitnessTools - Free Fitness Calculators & Health Assessment Tools"
+    />
+    <meta
+      property="twitter:description"
+      content="Free, accurate fitness calculators for all your health needs. BMI, TDEE, body fat, macros, and more with instant results."
+    />
+    <meta
+      property="twitter:image"
+      content="https://healthtoolkit.netlify.app/og-image.jpg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://healthtoolkit.netlify.app/" />
+
+    <!-- Mobile Web App -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="FitnessTools" />
+
+    <!-- Preconnect to important domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "FitnessTools",
+        "url": "https://healthtoolkit.netlify.app/",
+        "description": "Free, accurate fitness calculators for all your health needs.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://healthtoolkit.netlify.app/tools?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <noscript>
+      <div style="padding: 20px; text-align: center">
+        <h1>JavaScript Required</h1>
+        <p>
+          FitnessTools requires JavaScript to function properly. Please enable
+          JavaScript in your browser settings.
+        </p>
+      </div>
+    </noscript>
   </body>
 </html>

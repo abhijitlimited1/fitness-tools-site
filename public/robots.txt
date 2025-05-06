@@ -1,3 +1,12 @@
+# Allow all web crawlers
 User-agent: *
 Allow: /
+
+# Disallow duplicate content
+Disallow: /tools?*
+
+# Sitemap location
 Sitemap: https://healthtoolkit.netlify.app/sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1

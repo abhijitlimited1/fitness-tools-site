@@ -40,7 +40,7 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          // Add new routes
+          {/* Additional routes */}
           <Route path="/terms" element={<Terms />} />
           <Route path="/tools/bmr" element={<BmrCalculator />} />
           <Route
