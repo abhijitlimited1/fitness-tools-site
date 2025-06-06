@@ -2,11 +2,36 @@
 User-agent: *
 Allow: /
 
-# Disallow duplicate content
+# Disallow duplicate content and parameter-based URLs
 Disallow: /tools?*
+Disallow: /*?*
+Disallow: /*&*
 
 # Sitemap location
 Sitemap: https://healthtoolkit.netlify.app/sitemap.xml
 
 # Crawl delay to prevent server overload
 Crawl-delay: 1
+
+# Important pages for search engines with keyword focus
+Allow: /tools/bmi # BMI calculator
+Allow: /tools/body-mass-index # Body mass index calculator, bmi index calculator
+Allow: /tools/calorie # Calorie calculator, calorie estimator
+Allow: /tools/how-many-calories # How many calories should I consume in a day
+Allow: /tools/bmr # BMR calculator
+Allow: /tools/macros # Macro calculator, weight loss calculator
+Allow: /tools/tdee # TDEE, total daily energy expenditure
+Allow: /tools/body-fat # Body fat calculator, body fat percentage calculator
+Allow: /tools/ideal-weight # Ideal weight calculator
+Allow: /tools/protein # Protein calculator, protein intake calculator
+
+# Secondary tools
+Allow: /tools/water
+Allow: /tools/one-rep-max
+Allow: /tools/heart-rate
+Allow: /tools/body-type
+Allow: /tools/body-frame
+Allow: /tools/body-shape
+Allow: /tools/whr
+Allow: /tools/pregnancy-calories
+Allow: /tools/fitness-age

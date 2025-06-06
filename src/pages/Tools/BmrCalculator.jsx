@@ -29,11 +29,37 @@ export default function BmrCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>BMR Calculator - Basal Metabolic Rate</title>
+        <title>BMR Calculator - Basal Metabolic Rate | FitnessTools</title>
         <meta
           name="description"
-          content="Calculate your basal metabolic rate (BMR) - the calories your body needs at rest. Essential for weight management and diet planning."
+          content="Calculate your basal metabolic rate (BMR) - the calories your body needs at rest. Essential for weight management, diet planning, and understanding your daily calorie needs."
         />
+        <meta
+          name="keywords"
+          content="BMR calculator, basal metabolic rate, resting metabolic rate, calorie calculator, weight loss calculator, metabolism calculator"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/bmr"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "BMR Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/bmr",
+              "description": "Free online basal metabolic rate (BMR) calculator to determine your resting calorie needs.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

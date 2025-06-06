@@ -24,11 +24,39 @@ export default function ProteinCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>Protein Calculator - Daily Protein Needs</title>
+        <title>
+          Protein Calculator - Daily Protein Intake Calculator | FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate optimal daily protein intake based on body weight, activity level, and fitness goals. Essential for muscle growth and fat loss."
+          content="Calculate your optimal daily protein intake based on body weight, activity level, and fitness goals. Essential for muscle growth, recovery, and weight loss."
         />
+        <meta
+          name="keywords"
+          content="protein calculator, protein intake calculator, daily protein calculator, muscle building calculator, weight loss calculator, nutrition calculator, macronutrient calculator"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/protein"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Protein Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/protein",
+              "description": "Free online protein calculator to determine your optimal daily protein intake based on your weight, activity level, and fitness goals.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

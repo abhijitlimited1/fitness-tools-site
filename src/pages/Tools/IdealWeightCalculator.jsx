@@ -22,11 +22,40 @@ export default function IdealWeightCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>Ideal Weight Calculator - FitnessTools</title>
+        <title>
+          Ideal Weight Calculator - Find Your Healthy Weight Range |
+          FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate your ideal body weight based on height and gender using scientific formulas."
+          content="Calculate your ideal body weight based on height and gender using scientific formulas. Find your healthy weight range for optimal fitness and wellbeing."
         />
+        <meta
+          name="keywords"
+          content="ideal weight calculator, healthy weight calculator, weight range calculator, body weight calculator, height weight calculator, BMI weight calculator"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/ideal-weight"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Ideal Weight Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/ideal-weight",
+              "description": "Free online ideal weight calculator to determine your healthy weight range based on height, gender, and body frame using scientific formulas.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

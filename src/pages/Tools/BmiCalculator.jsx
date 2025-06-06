@@ -93,20 +93,38 @@ export default function BmiCalculator() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
         <title>
-          BMI Calculator - Calculate Your Body Mass Index | FitnessTools
+          BMI Calculator - Free Body Mass Index Calculator | FitnessTools
         </title>
         <meta
           name="description"
-          content="Calculate your Body Mass Index (BMI) with our free, accurate BMI calculator. Get instant results, health category classification, and personalized recommendations."
+          content="Calculate your Body Mass Index (BMI) with our free, accurate BMI calculator. Get instant results, health category classification, and personalized recommendations for your body weight index."
         />
         <meta
           name="keywords"
-          content="BMI calculator, body mass index, weight status calculator, healthy weight calculator, obesity calculator, BMI chart"
+          content="BMI calculator, body mass index calculator, body index calculator, body bmi calculator, body weight index calculator, weight status calculator, healthy weight calculator, obesity calculator, BMI chart"
         />
         <link
           rel="canonical"
           href="https://healthtoolkit.netlify.app/tools/bmi"
         />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "BMI Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/bmi",
+              "description": "Free online Body Mass Index (BMI) calculator. Calculate your BMI instantly and get personalized health insights.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       <div className="mb-8">

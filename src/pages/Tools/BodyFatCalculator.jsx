@@ -25,11 +25,39 @@ export default function BodyFatCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>Body Fat Calculator - FitnessTools</title>
+        <title>
+          Body Fat Calculator - Body Fat Percentage Calculator | FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate your body fat percentage using US Navy method with waist, neck, and height measurements."
+          content="Calculate your body fat percentage using the US Navy method with waist, neck, and height measurements. Free, accurate body composition analysis for weight loss tracking."
         />
+        <meta
+          name="keywords"
+          content="body fat calculator, body fat percentage calculator, body composition calculator, weight loss calculator, navy method calculator, body fat measurement"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/body-fat"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Body Fat Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/body-fat",
+              "description": "Free online body fat percentage calculator using the US Navy method. Calculate your body composition for fitness and weight loss tracking.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

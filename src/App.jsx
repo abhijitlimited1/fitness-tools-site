@@ -25,6 +25,9 @@ import PregnancyCalorieCalculator from "./pages/Tools/PregnancyCalorieCalculator
 import HeartRateCalculator from "./pages/Tools/HeartRateCalculator";
 import FitnessAgeCalculator from "./pages/Tools/FitnessAgeCalculator";
 import BodyShapeCalculator from "./pages/Tools/BodyShapeCalculator";
+import HowManyCalories from "./pages/Tools/HowManyCalories";
+import BodyMassIndexCalculator from "./pages/Tools/BodyMassIndexCalculator";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -62,6 +65,16 @@ export default function App() {
           <Route path="/tools/heart-rate" element={<HeartRateCalculator />} />
           <Route path="/tools/fitness-age" element={<FitnessAgeCalculator />} />
           <Route path="/tools/body-shape" element={<BodyShapeCalculator />} />
+          <Route
+            path="/tools/how-many-calories"
+            element={<HowManyCalories />}
+          />
+          <Route
+            path="/tools/body-mass-index"
+            element={<BodyMassIndexCalculator />}
+          />
+          {/* 404 Page - Catch all unmatched routes */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

@@ -51,11 +51,40 @@ export default function MacroCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>Macronutrient Calculator - FitnessTools</title>
+        <title>
+          Macro Calculator - Macronutrient Calculator for Weight Loss |
+          FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate your optimal macronutrient intake for muscle gain, fat loss, or maintenance based on weight and activity level."
+          content="Calculate your optimal macronutrient intake for weight loss, muscle gain, or maintenance. Our macro calculator provides personalized protein, carb, and fat ratios based on your goals."
         />
+        <meta
+          name="keywords"
+          content="macro calculator, macronutrient calculator, weight loss calculator, protein calculator, carb calculator, fat calculator, diet calculator, nutrition calculator"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/macros"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Macro Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/macros",
+              "description": "Free online macronutrient calculator to determine your ideal protein, carbohydrate, and fat intake based on your goals.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

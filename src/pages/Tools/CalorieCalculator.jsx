@@ -24,11 +24,39 @@ export default function CalorieCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>Calorie Calculator - FitnessTools</title>
+        <title>
+          Calorie Calculator - How Many Calories Should I Eat? | FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate your daily calorie needs based on age, gender, weight, height, and activity level using our scientific calculator."
+          content="Calculate how many calories you should consume in a day based on your age, gender, weight, height, and activity level. Free calorie estimator for weight loss and maintenance."
         />
+        <meta
+          name="keywords"
+          content="calorie calculator, calorie estimator, how many calories should i consume in a day, how many cal should i eat a day, how many calories should i intake a day, daily calorie needs, weight loss calculator"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/calorie"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Calorie Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/calorie",
+              "description": "Free online calorie calculator to determine how many calories you should eat per day for weight loss, maintenance, or muscle gain.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

@@ -24,11 +24,39 @@ export default function TdeeCalculator() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Helmet>
-        <title>TDEE Calculator - Total Daily Energy Expenditure</title>
+        <title>
+          TDEE Calculator - Total Daily Energy Expenditure | FitnessTools
+        </title>
         <meta
           name="description"
-          content="Calculate your total daily calorie needs including exercise and activity. Accurate TDEE calculator for weight loss or muscle gain."
+          content="Calculate your total daily energy expenditure (TDEE) including exercise and activity. Accurate TDEE calculator for weight loss, maintenance, or muscle gain to determine how many calories you should consume daily."
         />
+        <meta
+          name="keywords"
+          content="TDEE calculator, total daily energy expenditure, tdee, how many calories should i consume in a day, weight loss calculator, calorie calculator, daily calorie needs"
+        />
+        <link
+          rel="canonical"
+          href="https://healthtoolkit.netlify.app/tools/tdee"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "TDEE Calculator",
+              "url": "https://healthtoolkit.netlify.app/tools/tdee",
+              "description": "Free online total daily energy expenditure (TDEE) calculator to determine your daily calorie needs based on activity level.",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }
+          `}
+        </script>
       </Helmet>
 
       {/* <AdBanner /> */}

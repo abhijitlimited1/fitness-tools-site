@@ -42,13 +42,21 @@
   <!-- Body Composition Tools -->
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/bmi</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-01</lastmod>
+  </url>
+  <url>
+    <loc>https://healthtoolkit.netlify.app/tools/body-mass-index</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/body-fat</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/body-type</loc>
@@ -73,24 +81,34 @@
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/ideal-weight</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
 
   <!-- Nutrition Tools -->
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/calorie</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-01</lastmod>
+  </url>
+  <url>
+    <loc>https://healthtoolkit.netlify.app/tools/how-many-calories</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/macros</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/protein</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/water</loc>
@@ -106,13 +124,15 @@
   <!-- Fitness & Performance Tools -->
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/bmr</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/tdee</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://healthtoolkit.netlify.app/tools/one-rep-max</loc>
